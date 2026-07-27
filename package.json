@@ -1,0 +1,15 @@
+{
+    "name": "moqt-vs-webrtc",
+    "version" : "0.0.1",
+    "type" : "module",
+    "scripts": {
+        "dev": "tsx src/index.ts",
+        "typecheck": "tsc --noEmit",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.0",
+        "tsx": "^4.16.0",
+        "@types/node": "^22.5.1"
+    }
+}
