@@ -31,3 +31,11 @@ export interface Transport {
     onFrame(handler: (frame: Frame) => void): void;
     close(): Promise<void>;
 }
+
+//MOQT protocol config
+
+export interface MoqtOptions {
+    relayUrl: string;
+    namespace: string[]; //eg. ["moqt-vs-webrtc","run-1"]
+    supportedVersions: number[];
+}
