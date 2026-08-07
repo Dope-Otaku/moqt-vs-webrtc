@@ -1,3 +1,4 @@
+import "./shared/webtransport-polyfill.js";
 import {MoqtTransport} from "./moqt/publisher.js";
 import {MoqtSubscriberTransport} from "./moqt/subscriber.js";
 import {LlmReasoner} from "./agent/reasoner.js";
